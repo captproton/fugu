@@ -16,3 +16,4 @@ require 'rake/rdoctask'
 require 'tasks/rails'
 
 require 'refinery/tasks/refinery'
+
