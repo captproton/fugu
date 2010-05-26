@@ -1,0 +1,18 @@
+login: &login
+  access_key_id: 0XVAQR64TGCGWZ4W37R2
+  secret_access_key: 2mkUk7BxE4fVu7J4zCmVGnhIL3kXQGn8GaEpl5QR
+
+development:
+  bucket_name: rainforest-plants
+  <<: *login
+  distribution_domain:  d37lwa5sl4lhra.cloudfront.net
+
+test:
+  bucket_name: rainforest-plants
+  <<: *login
+  distribution_domain:  d37lwa5sl4lhra.cloudfront.net
+
+production:
+  bucket_name: rainforest-plants
+  <<: *login
+  distribution_domain:  d37lwa5sl4lhra.cloudfront.net
