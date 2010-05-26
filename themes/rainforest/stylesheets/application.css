@@ -29,7 +29,7 @@ body {
     margin: 0px auto;
 }
 #header {
-    background: url('/theme/images/header_background.png') repeat-x;
+    background: url('http://www.hoffmandesigngroup.com/images/bkg_image.jpg') repeat-x;
 }
 #header_content {
     position: relative;
