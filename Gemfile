@@ -14,6 +14,7 @@ gem 'mongrel', :group => :development
 #===REFINERY REQUIRED GEMS===
 gem 'rmagick',        '~> 2.12.2'
 gem 'rails',          '~> 2.3.5'
+gem 'aws-s3',          '~> 0.6.2'
 gem 'hpricot',        '~> 0.8', :require => 'hpricot'
 gem 'authlogic',      '~> 2.1.3', :require => 'authlogic'
 gem 'friendly_id',    '~> 2.3.3', :require => 'friendly_id'
