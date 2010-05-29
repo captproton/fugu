@@ -13,4 +13,19 @@
   <%= "<meta name=\"description\" content=\"#{@meta.meta_description}\" />" if @meta.meta_description.present? -%>
   <%= yield :head_libraries %>
   <%= yield :head %>
+
+	<link rel="stylesheet" type="text/css" href="css/slideshow.css" media="screen" />
+	<style type="text/css">
+  a { color: #404040; }
+  a:hover { text-decoration: none; }
+  code { color: #404040; font: normal 10px Monaco, monospace; }
+  em { color: #808080; font-style: normal; }
+  h1 { color: #000; font: normal 12px/16px Arial, sans-serif; padding: 0 20px 16px; text-transform: lowercase; }
+  h1:before { content: '.'; }
+  p { color: #404040; font: normal 12px/16px Arial, sans-serif; padding: 0 20px 16px; }
+	</style>
+	<script type="text/javascript" src="/javascripts/mootools.js"></script>
+	<script type="text/javascript" src="/javascripts/slideshow.js"></script>
+	<script type="text/javascript" src="/javascripts/slideshow.kenburns.js"></script>
+
 </head>
